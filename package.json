@@ -1,11 +1,19 @@
 {
   "name": "@v-thomas/algos",
   "version": "0.0.2",
-  "repository": {
-    "url": "https://github.com/VincentThomas06/Codebase.git",
-    "directory": "packages/algos"
-  },
+  "repository": "https://github.com/VincentThomas06/algos",
+  "description": "Algorithms for everyday use",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "jest": "^27.5.1",
+    "rollup": "^2.70.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "rollup": "rollup"
   }
 }

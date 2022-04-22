@@ -1,5 +1,4 @@
 {
-  "extends": "../../tsconfig.base.json",
   "files": [],
   "include": [],
   "references": [
@@ -16,6 +15,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "outDir": "./dist",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "node"
   }
 }
